@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static sun.misc.PostVMInitHook.run;
 
-public class SecondTest {
+public class SecondTest extends Base{
     @Test
     public void test1() {
         run();

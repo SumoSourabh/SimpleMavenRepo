@@ -1,11 +1,9 @@
 import org.junit.Test;
 
-import static sun.misc.PostVMInitHook.run;
-
-public class FirstTest {
+public class FirstTest extends Base{
 
     @Test
     public void mytest() {
-        run();
+        BaseTestClassMethod();
     }
 }

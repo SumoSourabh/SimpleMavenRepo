@@ -8,7 +8,7 @@ public class Base {
 
     @Test
     @Ignore
-    public void run() {
+    public void BaseTestClassMethod() {
         double r = Math.random();
         if (r < 0.1) {
             fail("oops");
