@@ -26,8 +26,4 @@ public class SecondTest extends Base{
         BaseTestClassMethod();
     }
 
-    @Test
-    public void test6() {
-        BaseTestClassMethod();
-    }
 }
