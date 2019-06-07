@@ -1,6 +1,6 @@
 import org.junit.Test;
 
-public class SecondTest extends Base{
+public class TwnetyEightTest extends Base {
     @Test
     public void test1() {
         BaseTestClassMethod();
@@ -50,5 +50,4 @@ public class SecondTest extends Base{
     public void test10() {
         BaseTestClassMethod();
     }
-
 }
