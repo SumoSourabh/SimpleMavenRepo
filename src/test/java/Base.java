@@ -21,6 +21,13 @@ public class Base {
     @Test
     @Ignore
     public void BaseTestClassMethod() {
+        double r = Math.random();
+        if (r < 0.4) {
+            aisehi();
+        }
+    }
+
+    private static void aisehi(){
         final int t = 1;
 
         for (int tItr = 0; tItr < t; tItr++) {
