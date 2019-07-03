@@ -3,7 +3,9 @@ import org.junit.Test;
 public class TwnetyNineTest extends Base {
     @Test
     public void test1() {
-        BaseTestClassMethod();
+        //BaseTestClassMethod();
+        int i = 1;
+        System.out.println(101/100+1);
     }
 
     @Test
