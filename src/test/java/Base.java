@@ -1,18 +1,9 @@
 import org.junit.Ignore;
 import org.junit.Test;
-import org.junit.internal.AssumptionViolatedException;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Scanner;
-import java.util.logging.Level;
-
-import static org.junit.Assert.fail;
 
 public class Base {
 
